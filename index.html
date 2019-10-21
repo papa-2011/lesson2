@@ -5,6 +5,7 @@
       <meta name="viewport" content="width=device-width">
       <title>JS Bin</title>
       <link rel="stylesheet" href="css/style.css">
+      <link rel="stylesheet" href="css/font-awesome.min.css">
    </head>
    <body>
       <div class="container">
@@ -27,7 +28,7 @@
                   <p class="about-product-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis facilis fuga, illo at. Natus eos, eligendi illum rerum omnis porro ex, magni, explicabo veniam incidunt in quam sapiente ut ipsum.</p>
                   <p class="about-product-text">Pariatur iure ab sunt nesciunt, quibusdam odio iste cumque itaque, ipsa vel exercitationem ullam quos aut nostrum cupiditate fuga quaerat quam animi dolores. Sequi itaque, unde per&shy;ferendis nemo debitis dolor.</p>
                </div>
-               <video class="about-product-video" src="#" width="430" height="245"></video>
+               <video class="about-product-video" src="./video/video-product.mp4" width="430" height="245" controls></video>
             </section>
             <section class="dignity">
                <span class="dignity-title">Dignity and pluses product</span>
@@ -133,9 +134,7 @@
                      <li>Cum odio, iste quia doloribus autem;</li>
                      <li>Aperiam nulla ea neque.</li>
                   </ol>
-                  <form action="#"  >
-                     <button class="link-btn">    buy</button> 
-                  </form>
+                  <button class="link-btn">buy</button>                   
                </div>
                <div class="prices-item">
                   <h3>Premium</h3>
@@ -150,9 +149,7 @@
                      <li>Cum odio, iste quia doloribus autem;</li>
                      <li>Aperiam nulla ea neque.</li>
                   </ol>
-                  <form action="#"  >
-                     <button class="link-btn">    buy</button> 
-                  </form>
+                  <button class="link-btn">buy</button>                   
                </div>
                <div class="prices-item">
                   <h3>Lux</h3>
@@ -171,13 +168,39 @@
                      <li>Cum odio, iste quia doloribus autem;</li>
                      <li>Aperiam nulla ea neque.</li>
                   </ol>
-                  <form action="#"  >
-                     <button class="link-btn">    buy</button> 
-                  </form>
+                  <button class="link-btn">buy</button>                   
                </div>
             </section>
          </main>
-         <footer> </footer>
+         <footer class="footer-body">
+            <span class="main-footer_title">Contacts</span>
+            <section class="main-footer">
+               <form class="main-footer_form" action="#" method="post">
+                  <input type="text" placeholder="Your name:">
+                  <input type="email" placeholder="Your email:">
+                  <textarea placeholder="Your message:"></textarea>
+                  <input type="submit" value="send">
+               </form>
+               <div class="main-footer_contacts">
+                  <ul  class="footer-contact-ul fa-ul">
+                     <li class="footer-contact-li"><i class="fa fa-skype fa-2x"></i>here_your_login_skype</li>
+                     <li class="footer-contact-li"><i class="fa fa-comment-o fa-2x"></i>279679659</li>
+                     <li class="footer-contact-li"><i class="fa  fa-at fa-2x"></i>psdhtmlcss@mail.ru</li>
+                     <li class="footer-contact-li"><i class="fa fa-phone fa-2x" ></i>80 00 4568 55 55</li>
+                  </ul>
+                  <ul  class="footer-social-ul">
+                     <li class="footer-social-li"><a href="#" target="_blank"><i class="fa fa-twitter fa-2x"></i></a></li>
+                     <li class="footer-social-li"><a href="#" target="_blank"><i class="fa fa-facebook fa-2x"></i></a></li>
+                     <li class="footer-social-li"><a href="#" target="_blank"><i class="fa fa-linkedin fa-2x"></i></a></li>
+                     <li class="footer-social-li"><a href="#" target="_blank"><i class="fa fa-google fa-2x" ></i></a></li>
+                     <li class="footer-social-li"><a href="#" target="_blank"><i class="fa fa-youtube fa-2x"></i></a></li>
+                  </ul>
+               </div>
+            </section>
+            <section class="footer-license">
+               <p>Copyright © 2014 Product name · PSD HTML CSS</p>
+            </section>
+         </footer>
       </div>
    </body>
 </html>
